@@ -1,3 +1,9 @@
+*.js linguist-language=Vue
+*.css linguist-language=Vue
+*.html linguist-language=Vue
+*.sql linguist-language=Vue
+*.tsql linguist-language=Vue
+
 .DS_Store
 node_modules
 /dist
