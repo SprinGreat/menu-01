@@ -1,0 +1,226 @@
+a{
+  text-decoration: none;
+}
+#main{
+  border:none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#main p#suiji{
+  width:180px;
+  height:2px;
+  border:1px solid transparent;
+}
+
+div#recommend h1{
+  padding-bottom:5px;
+  border-bottom:1px solid #ddd;
+  margin:5px;
+}
+ul#hot-list{
+  margin:5px;
+  text-align: center;
+}
+ul#hot-list li{
+  width:70px;
+  height:30px;
+  background-color:#FDECE4;
+  border-radius:5px;
+  margin-left: 27px;
+  margin-bottom: 10px;
+  line-height:30px;
+  list-style: none;
+}
+#first-box{
+  width:1000px;
+  min-height:300px;
+  box-sizing: border-box;
+  margin-left:29px;
+  display: flex;
+  text-align: center;
+  margin-top:10px;
+}
+#first-box h2{
+  margin:125px 35px 0 0;
+  width:65px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  color:#F6652C;
+}
+#main-list{
+  height:310px;
+  display:flex;
+  flex-wrap: wrap;
+  font-size:12px;
+}
+#main-list li{
+  width:300px;
+  height:150px;
+  border: 1px solid #E0F1EE;
+  box-sizing: border-box;
+  background-color: white;
+  margin:0 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+#main-list li img{
+  height:140px;
+  margin:5px;
+}
+#main-list li img:hover{
+  transform: scale(1.1);
+  transition: all .5s linear;
+}
+#main-list li a{
+  line-height: 40px;
+  padding-top:10px;
+  color: #66666A;
+}
+#main-list li a:hover{
+  text-decoration: none;
+}
+/*时令蔬菜*/
+#vegetable-list {
+  width:1000px;
+  min-height:300px;
+  box-sizing: border-box;
+  margin:20px 0 20px 210px;
+  display: flex;
+  text-align: center;
+}
+#vegetable-list h2{
+  margin:130px 35px 0 0;
+  width:35px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  color:#F6652C;
+}
+#vegetable-list div{
+  width:930px;
+  height:300px;
+  box-sizing:border-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5px;
+  position:relative;
+  justify-content: space-around;
+}
+#vegetable-list div dl{
+  width:170px;
+  height:180px;
+  margin:0 7px 0 5px;
+}
+#vegetable-list div dt img{
+  vertical-align: middle;
+  padding:5px 9px;
+  border:1px solid #E0F1EE;
+}
+#vegetable-list div dl dd a{
+  text-align: center;
+  color:#66666A;
+}
+#vegetable-list div#list1 ul#list2{
+  min-height:60px;
+  width:908px;
+  position:absolute;
+  top:190px;
+  left:10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left:30px;
+  font-size:14px;
+  list-style: none;
+}
+#vegetable-list div#list1 ul#list2 li{
+  width:25%;
+  margin-bottom:5px;
+  line-height:1.5;
+}
+
+#vegetable-list div#list1 ul#list2 li a:hover{
+  color:#C90000;
+}
+div#healthy-news{
+  width:1000px;
+  min-height:500px;
+  box-sizing: border-box;
+  margin-left:210px;
+  padding:10px;
+}
+div#healthy-news h2{
+  color:#F6652C;
+  text-align: center;
+  margin-bottom:10px;
+}
+
+div.news-text{
+  width:985px;
+  min-height:400px;
+  box-sizing: border-box;
+  padding:5px;
+  display:flex;
+  flex-wrap: wrap;
+}
+div.left-top-news{
+  width:465px;
+  height:210px;
+  border:1px solid #ddd;
+  box-sizing: border-box;
+  padding:5px;
+  margin-bottom:10px;
+}
+.news-text header{
+  width:100%;
+  height:40px;
+  line-height:40px;
+  box-sizing: border-box;
+  padding-left:10px;
+}
+div.news-text header p{
+  width:60px;
+  height:30px;
+  float:right;
+  box-sizing: border-box;
+}
+header h3{
+  color:#000000;
+  font-weight: normal;
+}
+header h3 a:hover{
+  color:#FF6C28;
+  font-weight: bold;
+}
+div.di{
+  display:flex;
+}
+div.di ul{
+  margin-left:10px;
+  list-style: none;
+
+}
+div.di li{
+  border-bottom:1px dashed #E0F1EE;
+  margin-left:5px;
+  font-size:15px;
+  line-height:37px;
+}
+div.di li a:hover{
+  color:#e4393c;
+}
+div.left-top-news:nth-child(2){
+  margin-left:40px;
+}
+div.left-top-news:nth-child(4){
+  margin-left:40px;
+}
+/*返回上层*/
+a.totop{
+  position: fixed;
+  top: 69%;
+  right:0;
+}
+.none{
+  display: none;
+}
