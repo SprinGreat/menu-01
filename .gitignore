@@ -1,7 +1,7 @@
  *.js linguist-language=vue
  *.css linguist-language=vue
  *.html linguist-language=vue
-*.sql linguist-language=vue
+*.tsql linguist-language=vue
 
 .DS_Store
 node_modules
