@@ -1,5 +1,5 @@
 ## 技术栈
-vue3+vue-router+webpack+ES6+vue-axios+express+mysql
+vue-cli3+webpack+ES6+vue+axios+express+mysql
 
 
 ## 已完成功能
