@@ -3,11 +3,11 @@
     <div class="panel">
       <div class="group">
         <ul>
-          <li><label>*用户名*</label></li>
+          <li><label>***用户名***</label></li>
           <li><input type="text"  v-model="obj.name" placeholder=" 请输入用户名"></li>
         </ul>
         <ul>
-          <li><label>*密码*</label></li>
+          <li><label>***密码***</label></li>
           <li><input type="password"  v-model="obj.pwd" placeholder=" 请输入密码" ></li>
         </ul>
       </div>
